@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="screen">
+    <text name="clock">
+      <pos>0.92 0.08</pos>
+      <size>0.07 0.025</size>
+      <fontSize>0.025</fontSize>
+      <color>FFFFFF</color>
+      <horizontalAlignment>center</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
+      <fontPath>./assets/SST.ttf</fontPath>
+      <fontSize>0.04</fontSize>
+    </text>
+    <controllerActivity name="controllerActivity">
+      <pos>0.832 0.025</pos>
+      <size>0.085 0.025</size>
+      <horizontalAlignment>right</horizontalAlignment>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./assets/gamepad.svg</imagePath>
+      <color>FFFFFF80</color>
+      <activityColor>A0A0FFC0</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+    </controllerActivity>
+  </view>
+  <view name="system">
+    <image name="staticBackground">
+      <path>./bg_SA2.png</path>
+    </image>
+
+    <image name="logo">
+      <reflexion>0 0</reflexion>
+    </image>
+    <text name="logoText">
+      <reflexion>0 0</reflexion>
+    </text>
+    <carousel name="systemcarousel">
+      <type>horizontal</type>
+      <pos>0 0.21</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <color>00000000</color>
+      <logoScale>3.5</logoScale>
+      <logoSize>3.5 0.125</logoSize>
+      <logoPos>-1 0.4</logoPos>
+	  <maxLogoCount>9</maxLogoCount>
+	  <scrollSound>./assets/sounds/SELECT.wav</scrollSound>
+    </carousel>
+    <text name="systemInfo">
+      <pos>0 0.31</pos>
+      <size>1 0.25</size>
+      <backgroundColor>00000000</backgroundColor>
+      <color>ffffff</color>
+      <fontPath>./assets/SST.ttf</fontPath>
+      <fontSize>0.03</fontSize>
+    </text>
+  </view>
+  <view></view>
+  <view name="basic, detailed, grid">
+    <image name="background" extra="true">
+      <path>./bg_SA2.png</path>
+    </image>
+  </view>
+</theme>
