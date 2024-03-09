@@ -66,7 +66,7 @@ License: creative commons CC-BY-NC-SA
       <origin>0 0</origin>
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./assets/bg_ETD.png</path>
+      <path>./assets/bg_DM_pink.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>
@@ -76,9 +76,9 @@ License: creative commons CC-BY-NC-SA
     </helpsystem>
     <image name="logo">
       <path>./art/cases/${system.theme}.png</path>
-      <reflexion>0 0</reflexion>
+      <reflexion>0.16 0.0</reflexion>
       <!-- <verticalAlignment>bottom</verticalAlignment> -->
-      <reflexionOnFrame>false</reflexionOnFrame>
+      <reflexionOnFrame>true</reflexionOnFrame>
     </image>
     <image name="logo" region="eu"/>
     <image name="logo" region="us">
@@ -121,7 +121,7 @@ License: creative commons CC-BY-NC-SA
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
-      <path>./assets/bg_ETD.png</path>
+      <path>./assets/bg_DM.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>

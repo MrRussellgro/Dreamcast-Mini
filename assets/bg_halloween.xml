@@ -11,7 +11,7 @@ License: creative commons CC-BY-NC-SA
       <pos>0.92 0.08</pos>
       <size>0.07 0.025</size>
       <fontSize>0.025</fontSize>
-      <color>000000</color>
+      <color>FFFFFF</color>
       <horizontalAlignment>center</horizontalAlignment>
       <verticalAlignment>center</verticalAlignment>
       <fontPath>./assets/SST.ttf</fontPath>
@@ -58,7 +58,7 @@ License: creative commons CC-BY-NC-SA
   </view>
   <view name="system">
 		<sound name="directory">
-			<path>./_theme_music/</path>
+			<path>./_theme_music_halloween/</path>
 		</sound>
     <image name="staticBackground">
       <size>1 1</size>
@@ -66,7 +66,7 @@ License: creative commons CC-BY-NC-SA
       <origin>0 0</origin>
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./assets/bg_ETD.png</path>
+      <path>./assets/bg_halloween.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>
@@ -91,8 +91,8 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/miss.ttf</fontPath>
       <fontSize>0.092</fontSize>
       <color>FFFFFFFF</color>
-      <reflexion>0.16 0.0</reflexion>
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <reflexion>0 0</reflexion>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </text>
   </view>
   <view name="basic">
@@ -121,7 +121,7 @@ License: creative commons CC-BY-NC-SA
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
-      <path>./assets/bg_ETD.png</path>
+      <path>./assets/bg_halloween.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>

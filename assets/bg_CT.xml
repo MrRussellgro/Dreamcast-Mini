@@ -285,11 +285,23 @@ License: creative commons CC-BY-NC-SA
   </view>
   <subset name="background">
     <include name="Dreamcast BIOS"/>
+	<include name="Dreamcast BIOS - Red">./assets/bg_red.xml</include>
+	<include name="Dreamcast BIOS - Green">./assets/bg_green.xml</include>
+	<include name="Dreamcast BIOS - Orange">./assets/bg_orange.xml</include>
+	<include name="Dreamcast BIOS - Pink">./assets/bg_pink.xml</include>
+	<include name="Dreamcast BIOS - Rainbow">./assets/bg_rainbow.xml</include>
 	<include name="Dreamcast BIOS - Dark Mode">./assets/bg_DM.xml</include>
+	<include name="Dreamcast BIOS - Dark Mode - Red">./assets/bg_DM_red.xml</include>
+	<include name="Dreamcast BIOS - Dark Mode - Green">./assets/bg_DM_green.xml</include>
+	<include name="Dreamcast BIOS - Dark Mode - Orange">./assets/bg_DM_orange.xml</include>
+	<include name="Dreamcast BIOS - Dark Mode - Pink">./assets/bg_DM_pink.xml</include>
+	<include name="Dreamcast BIOS - Dark Mode - Silver">./assets/bg_DM_silver.xml</include>
 	<include name="Dreamcast Mini - Cityscape">./assets/bg_CITYSCAPE.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - US">./assets/bg_SCD_US.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - EU">./assets/bg_SCD_EU.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - JP">./assets/bg_SCD_JP.xml</include>
+	<include name="Holiday - Christmas">./assets/bg_christmas.xml</include>
+	<include name="Holiday - Halloween">./assets/bg_halloween.xml</include>
 	<include name="Crazy Taxi">./assets/bg_CT.xml</include>
 	<include name="Ecco the Dolphin">./assets/bg_ETD.xml</include>
     <include name="Puyo Pop Fever">./assets/bg_PPF.xml</include>
