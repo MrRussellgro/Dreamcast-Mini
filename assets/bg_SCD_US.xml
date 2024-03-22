@@ -272,7 +272,7 @@ License: creative commons CC-BY-NC-SA
       <logoSize>2 0.125</logoSize>
       <logoPos>-1 0.4</logoPos>
 	  <maxLogoCount>25</maxLogoCount>
-	  <scrollSound>./assets/sounds/SELECT.wav</scrollSound>
+	  <scrollSound>./assets/sounds/SELECT_MD.wav</scrollSound>
     </carousel>
     <text name="systemInfo">
       <pos>0.44 0.31</pos>
@@ -297,9 +297,15 @@ License: creative commons CC-BY-NC-SA
 	<include name="Dreamcast BIOS - Dark Mode - Pink">./assets/bg_DM_pink.xml</include>
 	<include name="Dreamcast BIOS - Dark Mode - Silver">./assets/bg_DM_silver.xml</include>
 	<include name="Dreamcast Mini - Cityscape">./assets/bg_CITYSCAPE.xml</include>
+	<include name="Dreamcast Mini - Summertime Sunset">./assets/bg_summertimesunset.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - US">./assets/bg_SCD_US.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - EU">./assets/bg_SCD_EU.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - JP">./assets/bg_SCD_JP.xml</include>
+	<include name="Dreamcast Mini - SEGA Genesis - US">./assets/bg_MD_US.xml</include>
+	<include name="Dreamcast Mini - SEGA MegaDrive - EU">./assets/bg_MD_EU.xml</include>
+	<include name="Dreamcast Mini - SEGA MegaDrive - JP">./assets/bg_MD_JP.xml</include>
+	<include name="Dreamcast Mini - SEGA Master System">./assets/bg_SMS.xml</include>
+	<include name="Dreamcast Mini - SEGA Saturn">./assets/bg_SATURN.xml</include>
 	<include name="Holiday - Christmas">./assets/bg_christmas.xml</include>
 	<include name="Holiday - Halloween">./assets/bg_halloween.xml</include>
 	<include name="Crazy Taxi">./assets/bg_CT.xml</include>
