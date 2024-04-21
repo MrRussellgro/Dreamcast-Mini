@@ -71,8 +71,8 @@ License: creative commons CC-BY-NC-SA
       <color>ffffff</color>
     </image>
     <helpsystem name="help">
-      <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
+      <textColor>602A1F</textColor>
+      <iconColor>602A1F</iconColor>
     </helpsystem>
     <image name="logo">
       <path>./art/cases/${system.theme}.png</path>
@@ -90,7 +90,7 @@ License: creative commons CC-BY-NC-SA
     <text name="logoText">
       <fontPath>./assets/miss.ttf</fontPath>
       <fontSize>0.092</fontSize>
-      <color>FFFFFFFF</color>
+      <color>602A1F</color>
       <reflexion>0 0</reflexion>
       <reflexionOnFrame>false</reflexionOnFrame>
     </text>
@@ -114,8 +114,8 @@ License: creative commons CC-BY-NC-SA
   </view>
   <view name="basic, detailed, grid">
     <helpsystem name="help">
-      <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
+      <textColor>602A1F</textColor>
+      <iconColor>602A1F</iconColor>
     </helpsystem>
     <image name="background" extra="true">
       <size>1 1</size>

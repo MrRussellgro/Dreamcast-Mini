@@ -58,7 +58,7 @@ License: creative commons CC-BY-NC-SA
   </view>
   <view name="system">
 		<sound name="directory">
-			<path>./_theme_music_SATURN/</path>
+			<path>./_theme_music_saturn/</path>
 		</sound>
     <image name="staticBackground">
       <size>1 1</size>

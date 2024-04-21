@@ -114,8 +114,8 @@ License: creative commons CC-BY-NC-SA
   </view>
   <view name="basic, detailed, grid">
     <helpsystem name="help">
-      <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
+      <textColor>FF0000</textColor>
+      <iconColor>FF0000</iconColor>
     </helpsystem>
     <image name="background" extra="true">
       <size>1 1</size>

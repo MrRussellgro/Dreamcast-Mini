@@ -76,9 +76,9 @@ License: creative commons CC-BY-NC-SA
     </helpsystem>
     <image name="logo">
       <path>./art/cases/${system.theme}.png</path>
-      <reflexion>0.16 0.0</reflexion>
+      <reflexion>0 0</reflexion>
       <!-- <verticalAlignment>bottom</verticalAlignment> -->
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </image>
     <image name="logo" region="eu"/>
     <image name="logo" region="us">
@@ -91,8 +91,8 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/miss.ttf</fontPath>
       <fontSize>0.092</fontSize>
       <color>FFFFFFFF</color>
-      <reflexion>0.16 0.0</reflexion>
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <reflexion>0 0</reflexion>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </text>
   </view>
   <view name="basic">

@@ -76,9 +76,9 @@ License: creative commons CC-BY-NC-SA
     </helpsystem>
     <image name="logo">
       <path>./art/cases/${system.theme}.png</path>
-      <reflexion>0.16 0.0</reflexion>
+      <reflexion>0 0</reflexion>
       <!-- <verticalAlignment>bottom</verticalAlignment> -->
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </image>
     <image name="logo" region="eu"/>
     <image name="logo" region="us">
@@ -91,8 +91,8 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/miss.ttf</fontPath>
       <fontSize>0.092</fontSize>
       <color>000000</color>
-      <reflexion>0.16 0.0</reflexion>
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <reflexion>0 0</reflexion>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </text>
   </view>
   <view name="basic">
@@ -114,8 +114,8 @@ License: creative commons CC-BY-NC-SA
   </view>
   <view name="basic, detailed, grid">
     <helpsystem name="help">
-      <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
+      <textColor>00AA00</textColor>
+      <iconColor>FF0000</iconColor>
     </helpsystem>
     <image name="background" extra="true">
       <size>1 1</size>
@@ -241,7 +241,7 @@ License: creative commons CC-BY-NC-SA
       <selectionMode>image</selectionMode>
       <padding>5 5</padding>
       <imageColor>FFFFFF90</imageColor>
-      <reflexion>0.24 0.0</reflexion>
+      <reflexion>0 0</reflexion>
     </gridtile>
     <gridtile name="selected">
       <backgroundColor>FFFFFF00</backgroundColor>
