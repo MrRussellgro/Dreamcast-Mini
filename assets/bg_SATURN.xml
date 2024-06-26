@@ -66,7 +66,7 @@ License: creative commons CC-BY-NC-SA
       <origin>0 0</origin>
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./assets/bg_SATURN.png</path>
+      <path>./assets/bg_SATURN_menu.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>
@@ -75,6 +75,8 @@ License: creative commons CC-BY-NC-SA
       <iconColor>FFFFFF90</iconColor>
     </helpsystem>
     <image name="logo">
+	<linearSmooth>true</linearSmooth>
+	  <path>./art/cases/generic_wip.png</path>
       <path>./art/cases/${system.theme}.png</path>
       <reflexion>0 0</reflexion>
       <!-- <verticalAlignment>bottom</verticalAlignment> -->
@@ -129,7 +131,7 @@ License: creative commons CC-BY-NC-SA
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
-      <path>./assets/gamelist.png</path>
+      <path>./assets/gamelist_SATURN.png</path>
       <zIndex>0</zIndex>
       <color>FFFFFFFF</color>
     </image>
@@ -188,7 +190,7 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.03</fontSize>
       <pos>0.051 0.170</pos>
-      <size>0.50 0.70</size>
+      <size>0.50 0.69</size>
       <alignment>left</alignment>
       <horizontalMargin>0.01</horizontalMargin>
       <origin>0 0</origin>
@@ -196,6 +198,7 @@ License: creative commons CC-BY-NC-SA
       <selectorImagePath>./assets/box.png</selectorImagePath>
       <selectorOffsetY>-0.01</selectorOffsetY>
       <selectorHeight>0.0675</selectorHeight>
+	  <scrollSound>./assets/sounds/SELECT_SATURN.wav</scrollSound>
     </textlist>
   </view>
   <view name="grid">
@@ -234,6 +237,7 @@ License: creative commons CC-BY-NC-SA
       <scrollDirection>horizontal</scrollDirection>
       <centerSelection>true</centerSelection>
       <scrollLoop>true</scrollLoop>
+	  <scrollSound>./assets/sounds/SELECT_SATURN.wav</scrollSound>
     </imagegrid>
     <gridtile name="default">
       <backgroundColor>FFFFFF00</backgroundColor>
@@ -275,7 +279,7 @@ License: creative commons CC-BY-NC-SA
 	  <scrollSound>./assets/sounds/SELECT_SATURN.wav</scrollSound>
     </carousel>
     <text name="systemInfo">
-      <pos>0.44 0.31</pos>
+      <pos>0 0.38</pos>
       <size>1 0.25</size>
       <backgroundColor>00000000</backgroundColor>
       <color>ffffff</color>
