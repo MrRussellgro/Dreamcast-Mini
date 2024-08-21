@@ -8,9 +8,9 @@ License: creative commons CC-BY-NC-SA
   <formatVersion>7</formatVersion>
   <view name="screen">
     <text name="clock">
-      <pos>0.92 0.08</pos>
-      <size>0.07 0.025</size>
-      <fontSize>0.025</fontSize>
+      <pos>0.99 0.08</pos>
+      <size>0.01 0.025</size>
+      <fontSize>0.005</fontSize>
       <color>000000</color>
       <horizontalAlignment>center</horizontalAlignment>
       <verticalAlignment>center</verticalAlignment>
@@ -286,7 +286,6 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.03</fontSize>
     </text>
   </view>
-  <subset name="background">
     <include name="Dreamcast BIOS"/>
 	<include name="Dreamcast BIOS - Red">./assets/bg_red.xml</include>
 	<include name="Dreamcast BIOS - Green">./assets/bg_green.xml</include>
@@ -301,6 +300,7 @@ License: creative commons CC-BY-NC-SA
 	<include name="Dreamcast BIOS - Dark Mode - Silver">./assets/bg_DM_silver.xml</include>
 	<include name="Dreamcast Mini - Cityscape">./assets/bg_CITYSCAPE.xml</include>
 	<include name="Dreamcast Mini - Summertime Sunset">./assets/bg_summertimesunset.xml</include>
+	<include name="Dreamcast Mini - Tasty Treat">./assets/bg_tastytreat.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - US">./assets/bg_SCD_US.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - EU">./assets/bg_SCD_EU.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - JP">./assets/bg_SCD_JP.xml</include>

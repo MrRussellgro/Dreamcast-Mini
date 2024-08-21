@@ -11,7 +11,7 @@ License: creative commons CC-BY-NC-SA
       <pos>0.99 0.08</pos>
       <size>0.01 0.025</size>
       <fontSize>0.005</fontSize>
-      <color>000000</color>
+      <color>FFFFFF</color>
       <horizontalAlignment>center</horizontalAlignment>
       <verticalAlignment>center</verticalAlignment>
       <fontPath>./assets/SST.ttf</fontPath>
@@ -66,21 +66,21 @@ License: creative commons CC-BY-NC-SA
       <origin>0 0</origin>
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./assets/bg_DM_green_menu.png</path>
+      <path>./assets/bg_tastytreat_menu.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>
     <helpsystem name="help">
-      <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
+      <textColor>602A1F</textColor>
+      <iconColor>602A1F</iconColor>
     </helpsystem>
     <image name="logo">
 	<linearSmooth>true</linearSmooth>
 	  <path>./art/cases/generic_wip.png</path>
       <path>./art/cases/${system.theme}.png</path>
-      <reflexion>0.16 0.0</reflexion>
+      <reflexion>0 0</reflexion>
       <!-- <verticalAlignment>bottom</verticalAlignment> -->
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </image>
     <image name="logo" region="eu"/>
     <image name="logo" region="us">
@@ -92,9 +92,9 @@ License: creative commons CC-BY-NC-SA
     <text name="logoText">
       <fontPath>./assets/miss.ttf</fontPath>
       <fontSize>0.092</fontSize>
-      <color>FFFFFFFF</color>
-      <reflexion>0.16 0.0</reflexion>
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <color>602A1F</color>
+      <reflexion>0 0</reflexion>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </text>
   </view>
   <view name="basic">
@@ -102,7 +102,7 @@ License: creative commons CC-BY-NC-SA
       <pos>0.605 0.685</pos>
       <size>0.347 0.183</size>
       <alignment>center</alignment>
-      <color>ffffff</color>
+      <color>602A1F</color>
       <fontSize>0.025</fontSize>
       <text>No Information Available</text>
       <fontPath>./assets/noto.ttf</fontPath>
@@ -116,14 +116,14 @@ License: creative commons CC-BY-NC-SA
   </view>
   <view name="basic, detailed, grid">
     <helpsystem name="help">
-      <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
+      <textColor>602A1F</textColor>
+      <iconColor>602A1F</iconColor>
     </helpsystem>
     <image name="background" extra="true">
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
-      <path>./assets/bg_DM_green.png</path>
+      <path>./assets/bg_tastytreat.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>
@@ -131,7 +131,7 @@ License: creative commons CC-BY-NC-SA
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
-      <path>./assets/gamelist.png</path>
+      <path>./assets/gamelist_tastytreat.png</path>
       <zIndex>0</zIndex>
       <color>FFFFFFFF</color>
     </image>
@@ -170,7 +170,7 @@ License: creative commons CC-BY-NC-SA
     <text name="md_description">
       <pos>0.605 0.685</pos>
       <size>0.347 0.183</size>
-      <color>ffffff</color>
+      <color>602A1F</color>
       <fontSize>0.025</fontSize>
       <fontPath>./assets/noto.ttf</fontPath>
     </text>
@@ -182,11 +182,11 @@ License: creative commons CC-BY-NC-SA
   </view>
   <view name="basic, detailed">
     <textlist name="gamelist">
-      <selectorColor>0f85a5</selectorColor>
-      <selectorColorEnd>0F6585</selectorColorEnd>
+      <selectorColor>602A1F</selectorColor>
+      <selectorColorEnd>602A1F</selectorColorEnd>
       <selectedColor>ffffff</selectedColor>
-      <primaryColor>ffffff</primaryColor>
-      <secondaryColor>ffffff</secondaryColor>
+      <primaryColor>602A1F</primaryColor>
+      <secondaryColor>602A1F</secondaryColor>
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.03</fontSize>
       <pos>0.051 0.170</pos>
@@ -237,7 +237,6 @@ License: creative commons CC-BY-NC-SA
       <scrollDirection>horizontal</scrollDirection>
       <centerSelection>true</centerSelection>
       <scrollLoop>true</scrollLoop>
-	  <scrollSound>./assets/sounds/SELECT.wav</scrollSound>
     </imagegrid>
     <gridtile name="default">
       <backgroundColor>FFFFFF00</backgroundColor>
@@ -282,7 +281,7 @@ License: creative commons CC-BY-NC-SA
       <pos>0 0.38</pos>
       <size>1 0.25</size>
       <backgroundColor>00000000</backgroundColor>
-      <color>ffffff</color>
+      <color>602A1F</color>
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.03</fontSize>
     </text>
