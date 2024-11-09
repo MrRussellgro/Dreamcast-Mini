@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-Theme: Minimal
-Original author: Lilbud
-License: creative commons CC-BY-NC-SA
--->
 <theme>
+
+<!-- Includes -->
+   <include>./infos/${system.theme}.xml</include>
+
   <formatVersion>7</formatVersion>
   <view name="screen">
     <text name="clock">
@@ -165,7 +164,7 @@ License: creative commons CC-BY-NC-SA
       <delay>0.7</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
-      <snapshotSource>image</snapshotSource>
+      <snapshotSource>thumb</snapshotSource>
     </video>
     <text name="md_description">
       <pos>0.605 0.685</pos>
@@ -227,16 +226,16 @@ License: creative commons CC-BY-NC-SA
       <glowSize>3</glowSize>
     </text>
     <imagegrid name="gamegrid">
-      <pos>0.047 0.200</pos>
-      <size>0.51 0.67</size>
-      <margin>0.005 0.010</margin>
+      <pos>0.027 0.200</pos>
+      <size>0.61 0.67</size>
+      <margin>0 0</margin>
       <padding>0.03 0.05 0.03 0.04</padding>
-      <autoLayout>3 1</autoLayout>
+      <autoLayout>7 3</autoLayout>
       <autoLayoutSelectedZoom>1.40</autoLayoutSelectedZoom>
-      <animateSelection>false</animateSelection>
-      <scrollDirection>horizontal</scrollDirection>
-      <centerSelection>true</centerSelection>
-      <scrollLoop>true</scrollLoop>
+      <animateSelection>true</animateSelection>
+      <scrollDirection>vertical</scrollDirection>
+      <centerSelection>false</centerSelection>
+      <scrollLoop>false</scrollLoop>
 	  <scrollSound>./assets/sounds/SELECT.wav</scrollSound>
 	  
     </imagegrid>
@@ -246,7 +245,6 @@ License: creative commons CC-BY-NC-SA
       <selectionMode>image</selectionMode>
       <padding>5 5</padding>
       <imageColor>FFFFFF90</imageColor>
-      <reflexion>0.24 0.0</reflexion>
     </gridtile>
     <gridtile name="selected">
       <backgroundColor>FFFFFF00</backgroundColor>
@@ -287,6 +285,13 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/SST.ttf</fontPath>  
       <fontSize>0.03</fontSize>
     </text>
+	<text name="systemMetaData" extra="true">
+      <pos>0 0</pos>
+      <size>0.347 0.183</size>
+      <color>ffffff</color>
+      <fontSize>0.025</fontSize>
+      <fontPath>./assets/noto.ttf</fontPath>
+	</text>
   </view>
   <subset name="background">
     <include name="Dreamcast BIOS"/>
