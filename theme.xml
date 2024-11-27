@@ -5,6 +5,23 @@
    <include>./infos/${system.theme}.xml</include>
 
   <formatVersion>7</formatVersion>
+       <view name="system">
+          <text name="system_description" extra="true">
+               <text if="{system.manufacturer} == 'Collections'">Game collection</text>
+               <text if="{system.manufacturer} == 'Collections'" lang="es,gl">Colección de juegos</text>
+               <alignment>left</alignment>
+			   <size>0.66 0.312963</size>
+			   <pos>0.08 0.19</pos>
+               <verticalAlignment>top</verticalAlignment>
+               <color>FFFFFF</color>
+               <fontPath>./../_theme_inc/assets/SST.ttf</fontPath>
+               <lineSpacing>1.2</lineSpacing>
+               <zIndex>80</zIndex>
+               <glowColor>00000069</glowColor>
+               <glowSize>1</glowSize>
+               <glowOffset>3 2</glowOffset>
+          </text>
+     </view>
   <view name="screen">
     <text name="clock">
       <pos>0.99 0.08</pos>
@@ -307,6 +324,7 @@
 	<include name="Dreamcast BIOS - Dark Mode - Pink">./assets/bg_DM_pink.xml</include>
 	<include name="Dreamcast BIOS - Dark Mode - Silver">./assets/bg_DM_silver.xml</include>
 	<include name="Dreamcast Mini - Cityscape">./assets/bg_CITYSCAPE.xml</include>
+	<include name="Dreamcast Mini - SEGA Hard Girls">./assets/bg_SHG.xml</include>
 	<include name="Dreamcast Mini - Summertime Sunset">./assets/bg_summertimesunset.xml</include>
 	<include name="Dreamcast Mini - Tasty Treat">./assets/bg_tastytreat.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - US">./assets/bg_SCD_US.xml</include>
