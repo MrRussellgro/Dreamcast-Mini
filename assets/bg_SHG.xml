@@ -28,7 +28,7 @@ License: creative commons CC-BY-NC-SA
       <pos>0.99 0.08</pos>
       <size>0.01 0.025</size>
       <fontSize>0.005</fontSize>
-      <color>000000</color>
+      <color>FFFFFF</color>
       <horizontalAlignment>center</horizontalAlignment>
       <verticalAlignment>center</verticalAlignment>
       <fontPath>./assets/SST.ttf</fontPath>
@@ -75,7 +75,7 @@ License: creative commons CC-BY-NC-SA
   </view>
   <view name="system">
 		<sound name="directory">
-			<path>./_theme_music_SEGACD/</path>
+			<path>./_theme_music/</path>
 		</sound>
     <image name="staticBackground">
       <size>1 1</size>
@@ -83,7 +83,7 @@ License: creative commons CC-BY-NC-SA
       <origin>0 0</origin>
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./assets/bg_SCD_EU_menu.png</path>
+      <path>./assets/bg_SHG_menu.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>
@@ -95,9 +95,9 @@ License: creative commons CC-BY-NC-SA
 	<linearSmooth>true</linearSmooth>
 	  <path>./art/cases/generic_wip.png</path>
       <path>./art/cases/${system.theme}.png</path>
-      <reflexion>0.16 0.0</reflexion>
+      <reflexion>0 0</reflexion>
       <!-- <verticalAlignment>bottom</verticalAlignment> -->
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </image>
     <image name="logo" region="eu"/>
     <image name="logo" region="us">
@@ -110,8 +110,8 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/miss.ttf</fontPath>
       <fontSize>0.092</fontSize>
       <color>FFFFFFFF</color>
-      <reflexion>0.16 0.0</reflexion>
-      <reflexionOnFrame>true</reflexionOnFrame>
+      <reflexion>0 0</reflexion>
+      <reflexionOnFrame>false</reflexionOnFrame>
     </text>
   </view>
   <view name="basic">
@@ -140,7 +140,7 @@ License: creative commons CC-BY-NC-SA
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
-      <path>./assets/bg_SCD_EU.png</path>
+      <path>./assets/bg_SHG.png</path>
       <zIndex>0</zIndex>
       <color>ffffff</color>
     </image>
@@ -148,7 +148,7 @@ License: creative commons CC-BY-NC-SA
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
-      <path>./assets/gamelist_SCD_EU.png</path>
+      <path>./assets/gamelist_SHG.png</path>
       <zIndex>0</zIndex>
       <color>FFFFFFFF</color>
     </image>
@@ -215,7 +215,7 @@ License: creative commons CC-BY-NC-SA
       <selectorImagePath>./assets/box.png</selectorImagePath>
       <selectorOffsetY>-0.01</selectorOffsetY>
       <selectorHeight>0.0675</selectorHeight>
-	  <scrollSound>./assets/sounds/SELECT_MD.wav</scrollSound>
+	  <scrollSound>./assets/sounds/SELECT.wav</scrollSound>
     </textlist>
   </view>
   <view name="grid">
@@ -254,7 +254,7 @@ License: creative commons CC-BY-NC-SA
       <scrollDirection>vertical</scrollDirection>
       <centerSelection>false</centerSelection>
       <scrollLoop>false</scrollLoop>
-	  <scrollSound>./assets/sounds/SELECT_MD.wav</scrollSound>
+	  <scrollSound>./assets/sounds/SELECT.wav</scrollSound>
 	  
     </imagegrid>
     <gridtile name="default">
@@ -293,7 +293,7 @@ License: creative commons CC-BY-NC-SA
       <logoSize>2 0.125</logoSize>
       <logoPos>-1 0.4</logoPos>
 	  <maxLogoCount>25</maxLogoCount>
-	  <scrollSound>./assets/sounds/SELECT_MD.wav</scrollSound>
+	  <scrollSound>./assets/sounds/SELECT.wav</scrollSound>
     </carousel>
     <text name="systemInfo">
       <pos>0 0.38</pos>

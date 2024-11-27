@@ -301,6 +301,7 @@ License: creative commons CC-BY-NC-SA
 	<include name="Dreamcast BIOS - Dark Mode - Pink">./assets/bg_DM_pink.xml</include>
 	<include name="Dreamcast BIOS - Dark Mode - Silver">./assets/bg_DM_silver.xml</include>
 	<include name="Dreamcast Mini - Cityscape">./assets/bg_CITYSCAPE.xml</include>
+	<include name="Dreamcast Mini - SEGA Hard Girls">./assets/bg_SHG.xml</include>
 	<include name="Dreamcast Mini - Summertime Sunset">./assets/bg_summertimesunset.xml</include>
 	<include name="Dreamcast Mini - Tasty Treat">./assets/bg_tastytreat.xml</include>
 	<include name="Dreamcast Mini - SEGA CD - US">./assets/bg_SCD_US.xml</include>
