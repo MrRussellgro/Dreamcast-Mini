@@ -23,5 +23,5 @@ Future Features:
 - More music for each theme.
 - More ways to view the gamelist.
 - More art for each system.
-- Languages
+- Languages.
 - ECT.
