@@ -11,7 +11,7 @@ Manually:
 - Drag it into your themes folder.
 
 Theme Downloader:
-- on your system, head to MAIN MENU > UPDATES & DOWNLOADS > THEMES
+- On your system, head to MAIN MENU > UPDATES & DOWNLOADS > THEMES
 - Look for Dreamcast Mini and download it!
 
 How to use the theme:
